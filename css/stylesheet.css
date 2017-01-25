@@ -1,0 +1,53 @@
+.navbar-collapse { /*Navbar padding*/
+    padding-right: 15px;
+    padding-left: 0px;
+}
+.navbar.navbar-default {
+	background-image: url("/img/primary_nav_background.png");
+}
+
+.container-fluid.my-primary-navbar { /*Primary navbar background*/
+	background-color: #d8232a;
+	border-bottom: 3px solid #c5264a;
+	padding-top: 3px;
+	padding-right: 0;
+    }
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover { /*Text color on hover*/
+	color: green;
+}
+
+.nav.navbar-nav li:hover { /*Primary navbar tab background on hover*/
+	background-color: red;
+}
+
+.nav.navbar-nav.my-primary-nav li a {
+	color: #fff;
+}
+
+.nav.navbar-nav.my-nav li:hover { /*Secondary navbar tab background on hover*/
+	background-color: yellow;
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+	background-image: none;
+	background-color: #c5264a;
+}
+
+.glyphicon.glyphicon-home { /*Home page icon*/
+	padding-right: 10px;
+}
+
+.text-uppercase.my-pref-lang-dropdown { /*Preferred language dropdown on primary nav*/
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 1.15rem
+}
+
+.glyphicon.glyphicon-menu-down {
+	color: #fff;
+	font-size: 1rem;
+	padding-left: 10px;
+}
